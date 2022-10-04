@@ -74,7 +74,18 @@
                 <li>pow(x, y)   => x elevado a y</li>
                 <li>x ** y      => x elevado a y</li>
         </ul>
-
+        <p>Sabendo dessas coisas, agora podemos montar a nossa expressão númerica de segundo grau. Primeiro, devemos definir o valor de cada letra e, inserirmos um input para o usuário colocar o valor que desejar.</p>
+        <code>
+            <span>a = 2</span>
+            <span>b = 0.5</span>
+            <span>c = 1</span>
+            <span>x = input("Digite o valor de x: ")</span>
+            <span>x = float(x)</span>
+            <span>y = a * x ** 2 + b * x + c</span>
+            <span>print(f"O resultado de y para x = {x} é {y}.")</span>
+        </code>
+        <p>Ao usar a função input(), ela retorna uma <strong>string</strong>, independente do que o usuário digitou, sempre será string. Portanto, para corrigir o erro, precisamos converter o resultado da entrada em um tipo numérico. Para isso, utilizamos o "<strong>float()</strong>" (como apresentado acima), que permitirá o sistema dar continuidade a expressão. Caso contrário, aparecerá o ero " <strong>TypeError</strong> ". E, para verificarmos o type de cada elemento, utilizamos o código <strong>print(type(x))</strong> para cada elemento.</p>
+        
     </main>   
 </body>
 </html>
