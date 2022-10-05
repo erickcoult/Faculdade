@@ -85,6 +85,54 @@
             <span>print(f"O resultado de y para x = {x} é {y}.")</span>
         </code>
         <p>Ao usar a função input(), ela retorna uma <strong>string</strong>, independente do que o usuário digitou, sempre será string. Portanto, para corrigir o erro, precisamos converter o resultado da entrada em um tipo numérico. Para isso, utilizamos o "<strong>float()</strong>" (como apresentado acima), que permitirá o sistema dar continuidade a expressão. Caso contrário, aparecerá o ero " <strong>TypeError</strong> ". E, para verificarmos o type de cada elemento, utilizamos o código <strong>print(type(x))</strong> para cada elemento.</p>
+
+        <h1>ESTRUTURAS CONDICIONAIS EM PYTHON: IF, ELIF, ELSE</h1>
+        <h2>If</h2>
+        <p>Assim como diz no nome, if significa "<strong>se</strong>" e else "<strong>senão</strong>". Eles tem como função de dar dois caminhos para o código. Caso o valor for verdadeiro (if) seguirá um resultado. Agora, se for falso (else), seguirá outro.</p>
+        <p>Após inserirmos esses comandos, temos de colocar as funções que serão executadas.</p>
+        <code>
+        <span>a = 5</span>
+        <span>b = 10</span>
+        <span>if a &lt b:</span>
+        <span>print("a é menor do que b")</span>
+        <span>r = a + b</span>
+        <span>print(r)</span>
+        </code>
+        <p>Assim, se A for menor que B, o programa irá printar na tela " a é menor do que b" e logo em seguida fará o calculo de r, printando na tela após.</p>
+        <h2>Else</h2>
+        <p>Agora, caso desejamos acrescentar o outro caminho, utilizamos o Else. Ele fará o trabalho de mostrar outro resultado</p>
+        <code>
+            <span>a = input('valor 1: ')</span>
+            <span>b = input('valor 2: ')</span>
+<span>if a &lt b:</span>
+    <span>print('B é maior que A')</span>
+<span>else:</span>
+    <span>print("A é maior do que B")</span>
+        </code>
+        <p>Ou seja, se o resultado de A or maior que B, aparecerá a função que está em ELSE</p>
+        <h2>Elif</h2>
+        <p>Basicamente o elif funciona como um source do HTML. Ou seja, caso a opção 1 não esteja de acordo( ou nao exista), será apresentado a opção 2; Caso a 2 n]ao esteja funcionando, será apresentada a opção 3 e apor assim vai.</p>
+        <code>
+            <span>codigo_compra = 5111</span>
+<span></span>
+<span>if codigo_compra == 5222:</span>
+    <span>print("Compra à vista.")</span>
+<span>elif codigo_compra == 5333:</span>
+    <span>print("Compra à prazo no boleto.")</span>
+<span>elif codigo_compra == 5444:</span>
+    <span>print("Compra à prazo no cartão.")</span>
+<span>else:</span>
+    <span>print("Código não cadastrado")</span>
+        </code>
+        <p>Assim, caso o código da compra for 5333, sistema irá printar "compra à prazo no boleto". Do contraio, irá ignorar o "compra à vista" e o "compra à prazo no cartão". E se não houver nenhum dentre as opções, o sistema printará o <strong>else</strong></p>
+
+        <h1>ESTRUTURAS LÓGICAS EM PYTHON: AND, OR, NOT</h1>
+        <p>Além dos operadores relacionais, podemos usar os operadores booleanos para construir estruturas de decisões mais complexas.</p>
+        <ul>
+            <li>Operador booleano and: Esse operador faz a operação lógica E, ou seja, dada a expressão (a and b), o resultado será True, somente quando os dois argumentos forem verdadeiros.</li>
+            <li>Operador booleano or: Esse operador faz a operação lógica OU, ou seja, dada a expressão (a or b), o resultado será True, quando pelo menos um dos argumentos for verdadeiro.</li>
+            <li>Operador booleano not: Esse operador faz a operação lógica NOT, ou seja, dada a expressão (not a), ele irá inverter o valor do argumento. Portanto, se o argumento for verdadeiro, a operação o transformará em falso e vice-versa.</li>
+        </ul>
         
     </main>   
 </body>
