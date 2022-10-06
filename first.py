@@ -38,9 +38,24 @@
 #else:
     #print("Código não cadastrado")
 
-A = 15
-B = 9
-C = 9
+#atividade 5 and, or, not----------------
+#A = 15
+#B = 9
+#C = 9
 
-print(B == C or A < B and A < C)
-print((B == C or A < B) and A < C )
+#print(B == C or A < B and A < C)
+#print((B == C or A < B) and A < C )
+
+#atividade 6 while-----------------
+#numero = 1
+#while numero != 0:
+#    numero = int(input("Digite um número: "))
+#    if numero % 2 == 0:#
+#        print("Número par!")
+#    else:
+#        print("Número ímpar!")
+
+#atividade 7 for------------
+nome = "Guido"
+for o, u in enumerate(nome):
+    print(f"Posição = {o}, valor = {u}")

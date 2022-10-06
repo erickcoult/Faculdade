@@ -60,7 +60,7 @@
             <span class="d"># Modo 3 - usando strings formatadas</span>
             <span>print(f"Olá {nome}, bem vindo a disciplina de programação. Parabéns pelo seu primeiro hello world")</span>
         </code>
-        <p><strong>IMPORTANTE: Para fazermos comentário em Python, utilizamos a #</strong></p>
+        <p><strong>LEMBRE: Para fazermos comentário em Python, utilizamos a #</strong></p>
         <h2>Operações matemática em Python</h2>
         <p>Igualmente em matemática, possuimos os sinais matemáticos e as operações.</p>
         <ul>
@@ -134,7 +134,29 @@
             <li>Operador booleano <strong>not</strong>: Esse operador faz a operação lógica NOT, ou seja, dada a expressão (not a), ele irá inverter o valor do argumento. Portanto, se o argumento for verdadeiro, a operação o transformará em falso e vice-versa.</li>
         </ul>
         <p>Assim como as operações matemáticas possuem ordem de precedência, as operações booleanas também têm. Essa prioridade obedece à seguinte ordem: <strong>not</strong> primeiro, <strong>and</strong> em seguida e <strong>or</strong> por último </p>
-        
+
+        <h1>ESTRUTURAS DE REPETIÇÃO EM PYTHON: WHILE E FOR</h1>
+         <p>A estrutura de repetição são dadas por while (enquanto) e por for(para). Eles tem como objetivo de repetir a execução do código. Assim, podemos programar para o programa fazer a pergunta X, dar-nos a resposta e, logo em seguida, fazer a pergunta X novamente, repetindo o processo.</p>
+         <p><strong>LEMBRE: todos os blocos de comandos em Python são controlados pela indentação.</strong></p>
+         <p>Usamos o comando "<strong>for</strong>" seguido da variável de controle "c", na sequência o comando "in" e, por fim, a sequência sobre a qual a estrutura deve iterar</p>
+         <code>
+            <span>nome = "Guido"</span>
+            <span>for c in nome:</span>
+              <span>print(c)</span>
+         </code>
+         <p>Assim, o resultado seguira cada letra de Guido em cada linha</p>
+         <p>Também podemos utilizar, junto com o "for", a função <strong>enumerate()</strong>. Ela tem como objetivo de enumerar a variável e de mostrar a posição.</p>
+         <code>
+            <span>nome = "Guido"</span>
+            <span>for i, c in enumerate(nome):</span>
+               <span>print(f"Posição = {i}, valor = {c}")</span>
+               <p>
+                Posição = 0, valor = G
+                Posição = 1, valor = u
+                Posição = 2, valor = i
+                Posição = 3, valor = d
+                Posição = 4, valor = o</p>
+         </code>
     </main>   
 </body>
 </html>
