@@ -56,6 +56,10 @@
 #        print("Número ímpar!")
 
 #atividade 7 for------------
-nome = "Guido"
-for o, u in enumerate(nome):
-    print(f"Posição = {o}, valor = {u}")
+#nome = "Guido"
+#for o, u in enumerate(nome):
+#    print(f"Posição = {o}, valor = {u}")
+computador = ['Processador', 'Teclado', 'Mouse', 'Tela']
+
+for item in computador:
+ print(item)
