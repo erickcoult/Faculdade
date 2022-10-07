@@ -59,7 +59,12 @@
 #nome = "Guido"
 #for o, u in enumerate(nome):
 #    print(f"Posição = {o}, valor = {u}")
-computador = ['Processador', 'Teclado', 'Mouse', 'Tela']
 
-for item in computador:
- print(item)
+#computador = ['Processador', 'Teclado', 'Mouse', 'Tela']
+#
+#for item in computador:
+# print(item)
+
+#atividade 8 range----------
+for x in range(5):
+    print(x)
