@@ -139,6 +139,7 @@
          <p>A estrutura de repetição são dadas por while (enquanto) e por for(para). Eles tem como objetivo de repetir a execução do código. Assim, podemos programar para o programa fazer a pergunta X, dar-nos a resposta e, logo em seguida, fazer a pergunta X novamente, repetindo o processo. Ou seja, um loop</p>
          <p><strong>LEMBRE: todos os blocos de comandos em Python são controlados pela indentação.</strong></p>
          <p>O comando for em Python requer uma sequência para que ocorra a iteração. Assim, usamos o comando "<strong>for</strong>" seguido da variável, na sequência o comando "in" e, por fim, a sequência sobre a qual a estrutura deve iterar. Ou seja, sua sintaxe básica é: </p>
+         <h1><strong>FALTA FAZER DE WHILE</strong></h1>
          <code>
             <span>for &ltnome variável&gt in &ltiterável &gt</span>
          </code>
@@ -178,6 +179,31 @@
                 <li>Método 2: passando dois argumentos, um que representa o início das repetições e outro o limite superior (NÃO INCLUÍDO) do valor da variável de controle;</li>
                 <li>Método 3: Passando três argumentos, um que representa o início das repetições; outro, o limite superior (NÃO INCLUÍDO) do valor da variável de controle e um que representa o incremento.</li>
             </ul>
+            <h2>Break e Continue</h2>
+            <p>Assim como ja diz no nome, break significa parar. Ou seja, podemos fazer com que o código pare de rodar ao definirmos um padrão com break. Assim, quando o código rodar e, aquela condição marcada aparecer, o comando se encerrará.</p>
+            <code>
+                <span>disciplina = "Linguagem de programação"</span>
+                <span>for c in disciplina:</span>
+                    <span>if c == 'a':</span>
+                        <span>break</span>
+                    <span>else:</span>
+                        <span>print(c)</span>
+                    <span>L</span>
+                    <span>i</span>
+                    <span>n</span>
+                    <span>g</span>
+                    <span>u</span>
+            </code>
+            <p>Já <strong>Continue</strong> irá apenas pular todaos os padrões definidos, continuando a sequência. Seguindo o exemplo anterior; O código iria motrar todo "Linguam de programação" porém, iria pular todas as letras definidas ("a").</p>
+            <code>
+                <span>disciplina = "Linguagem de programação"</span>
+                <span>for c in disciplina:</span>
+                    <span>if c == 'a':</span>
+                        <span>continue</span>
+                    <span>else:</span>
+                        <span>print(c)</span>
+                        <span>L i n g u g e m  d e  p r o g r m ç ã o</span>
+            </code>
     </main>   
 </body>
 </html>

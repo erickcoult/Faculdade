@@ -66,5 +66,36 @@
 # print(item)
 
 #atividade 8 range----------
-for x in range(5):
-    print(x)
+#for x in range(5):
+#    print(x)
+
+#Método 3
+#for i in range(0, 20, 2):
+# print(i)
+
+while numero != 0:
+    numero = int(input("Digite um número: "))
+    if numero % 2 == 0:
+        print("Número par!")
+    else:
+        print("Número ímpar!")
+
+#ativifsfr 9 break-------
+#disciplina = "Linguagem de programação"
+#for c in disciplina:
+#    if c == 'z':
+#        break
+#    else:
+#        print(c)
+
+#atividade 10 continue------
+#texto = """
+#A inserção de comentários no código do programa é uma prática normal.
+#Em função disso, toda linguagem de programação tem alguma maneira de permitir que comentários sejam inseridos nos programas.
+#O objetivo é adicionar descrições em partes do código, seja para documentá-lo ou para adicionar uma descrição do algoritmo #implementado (BANIN, p. 45, 2018)."
+#"""
+#for i, c in enumerate(texto):
+#    if c == 'a' or c == 'e':
+#        print(f"Vogal '{c}' encontrada, na posição {i}")
+#    else:
+#        continue
