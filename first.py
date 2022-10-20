@@ -73,12 +73,12 @@
 #for i in range(0, 20, 2):
 # print(i)
 
-while numero != 0:
-    numero = int(input("Digite um número: "))
-    if numero % 2 == 0:
-        print("Número par!")
-    else:
-        print("Número ímpar!")
+#while numero != 0:
+#    numero = int(input("Digite um número: "))
+#    if numero % 2 == 0:
+#        print("Número par!")
+#    else:
+#        print("Número ímpar!")
 
 #ativifsfr 9 break-------
 #disciplina = "Linguagem de programação"
@@ -99,3 +99,4 @@ while numero != 0:
 #        print(f"Vogal '{c}' encontrada, na posição {i}")
 #    else:
 #        continue
+

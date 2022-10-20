@@ -111,7 +111,7 @@
         </code>
         <p>Ou seja, se o resultado de A or maior que B, aparecerá a função que está em ELSE</p>
         <h2>Elif</h2>
-        <p>Basicamente o elif funciona como um source do HTML. Ou seja, caso a opção 1 não esteja de acordo( ou nao exista), será apresentado a opção 2; Caso a 2 n]ao esteja funcionando, será apresentada a opção 3 e apor assim vai.</p>
+        <p>Basicamente o elif funciona como um source do HTML. Ou seja, caso a opção 1 não esteja de acordo( ou nao exista), será apresentado a opção 2; Caso a 2 não esteja funcionando, será apresentada a opção 3 e apor assim vai.</p>
         <code>
             <span>codigo_compra = 5111</span>
 <span></span>
@@ -137,9 +137,19 @@
 
         <h1>ESTRUTURAS DE REPETIÇÃO EM PYTHON: WHILE E FOR</h1>
          <p>A estrutura de repetição são dadas por while (enquanto) e por for(para). Eles tem como objetivo de repetir a execução do código. Assim, podemos programar para o programa fazer a pergunta X, dar-nos a resposta e, logo em seguida, fazer a pergunta X novamente, repetindo o processo. Ou seja, um loop</p>
+         <h2>While</h2>
+         <p>Como vimos antes, podemos traduzir while como "enquanto". Logo, toda vez que vermos essa estrutura de repetição, podemos ler como "enquanto a variável..."</p>
+         <p>Sua função nada mais é do que fazer um loop infinito até que a condição seja "satisfatória"</p>
+         <code>
+            <span>k = 3</span>
+            <span>while k &lt 11:</span>
+            <span>print (k)</span>
+            <span class="d">Então podemos ler como "Enquanto k for menor que 11, irá printar na tela a variável (k)" Ou seja, irá spammar na tela infinitamente o número 3</span>
+         </code>
          <p><strong>LEMBRE: todos os blocos de comandos em Python são controlados pela indentação.</strong></p>
+         <h2>For</h2>
+         <p>A instrução Python For itera sobre os itens de qualquer sequência, por exemplo, iterar sobre os caracteres de uma palavra, pois uma palavra é um tipo de sequência.</p>
          <p>O comando for em Python requer uma sequência para que ocorra a iteração. Assim, usamos o comando "<strong>for</strong>" seguido da variável, na sequência o comando "in" e, por fim, a sequência sobre a qual a estrutura deve iterar. Ou seja, sua sintaxe básica é: </p>
-         <h1><strong>FALTA FAZER DE WHILE</strong></h1>
          <code>
             <span>for &ltnome variável&gt in &ltiterável &gt</span>
          </code>
@@ -149,7 +159,7 @@
             <span>for c in nome:</span>
               <span>print(c)</span>
          </code>
-         <p>Assim, o resultado seguira cada letra de Guido em cada linha</p>
+         <p>Assim, o resultado seguirá cada letra de Guido em cada linha</p>
          <p>Também podemos utilizar, junto com o "for", a função <strong>enumerate()</strong>. Ela tem como objetivo de enumerar a variável e de mostrar a posição.</p>
          <code>
             <span>nome = "Guido"</span>
