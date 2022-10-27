@@ -5,6 +5,40 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Linguagem C</title>
+    <style>
+        .d{
+            color: red;
+        }
+        html{
+        background-color: lightsteelblue;
+        margin: 10px;
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+        }
+        body{
+        background-color: whitesmoke;
+        max-width: 1000px;
+        padding: 10px;
+        border-radius: 6px;
+        margin: auto;
+        }
+        span{
+            margin: 0px;
+            padding: 0px;
+            text-align: left;
+         }
+        code{
+        word-wrap:break-word;
+        white-space: pre-wrap;
+        background-color: lightblue;
+        display: block;
+        border-radius: 10px;
+        text-align: left;
+        }
+        h2{
+        font-size: 23px;
+    }
+    </style>
 </head>
 <body>
     <h1>Bibliotecas</h1>
@@ -15,7 +49,30 @@
         <li>string: manipulação de string</li>
         <li>math: operações matemáticas</li>
     </ul>
-    <p></p>
-    
+    <h1>Operador Lógico</h1>
+    <p>Assim como nas outras linguagens, temos os operadores lógicos de C</p>
+    <ul>
+        <li>&& --> Lógico E- conjunção</li>
+        <li>|| --> Lógico OU - disjunção</li>
+        <li>!  --> Lógico Não - negação</li>
+    </ul>
+    <h1>Comando de Saída de dados</h1>
+    <p>As informações, mensgens e conteúdo das variáveis são enviadas para a tela do usuário</p>
+    <ul>
+        <li>printf("expressão de controle", lista de argumentos);</li>
+    </ul>
+    <p>Com ela, temos uma lista de argumentos, sendo:</p>
+    <ul>
+        <li>%c = Permite a escrita de <strong>apenas um caractere</strong>.</li>
+        <li>%d = Permite a escrita de <strong>números inteiros decimais</strong>.</li>
+        <li>%e = Realiza-se a escrita de números em <strong>notação científica</strong>.</li>
+        <li>%f = É feita a escrita de <strong>números reais</strong> (ponto flutuante/float)</li>
+        <li>%s = Efetua a escrita de uma <strong>série de caracteres</strong></li>
+    </ul>
+    <p>Como exemplo temos <strong>printf("o valor encontrado foi %d", valor1);</strong> </p>
+    <code>
+        <span>valor1 = 10</span>
+        <span>printf("o valor encontrado foi %d", valor1</span>
+    </code>
 </body>
 </html>
