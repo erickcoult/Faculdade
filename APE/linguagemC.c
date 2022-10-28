@@ -1,8 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main()
+int main(int argc, char** argv)
 {
-    valor = 10
-    printf; ("o valor encontrado foi %d", &valor);
+    int valor = 12;
+    printf("o valor de int %e", valor);
+    return (EXIT_SUCCESS);
 }
