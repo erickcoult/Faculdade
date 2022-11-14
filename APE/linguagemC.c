@@ -1,9 +1,29 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(int argc, char** argv)
-{
-    int valor = 12;
-    printf("o valor de int %e", valor);
+/*
+ * 
+ */
+int main(int argc, char** argv) {
+    
+    char nome[30];
+    char endereco[30];
+    Char telefone [15];
+    
+    printf("digite seu nome: \n");
+    scanf("%s", &nome);
+    
+    printf("digite seu endereco\n");
+    scanf("%s", &endereco);
+    
+    printf("digite telefone \n");
+    scanf("%d", &telefone);
+    
+    printf("\n Nome: %s",nome );
+    
+    printf("\n Endereco: %s", endereco);
+    
+    printf("\n telefone: %d", telefone);
+
     return (EXIT_SUCCESS);
 }
