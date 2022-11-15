@@ -214,6 +214,24 @@
                         <span>print(c)</span>
                         <span>L i n g u g e m  d e  p r o g r m ç ã o</span>
             </code>
+            <h2>Utilização com outras ferramentas</h2>
+            <p>Podemos utilizar ás <strong>aspas triplas</strong>. Ela fará com que o uso das aspas triplas possamos quebrar a linha do texto. As aspas triplas também podem ser usadas para criar comentários de várias linhas em Python </p>
+            <p>Isso nos abre portas para que possamos utilizar textos para, como por exemplo, procurar vogais.</p>
+            <code>
+                <span>
+                    texto = """
+                    A inserção de comentários no código do programa é uma prática normal.
+                    Em função disso, toda linguagem de programação tem alguma maneira de permitir que comentários sejam inseridos nos programas.
+                    O objetivo é adicionar descrições em partes do código, seja para documentá-lo ou para adicionar uma descrição do algoritmo implementado (BANIN, p. 45, 2018)."
+                    """
+                </span>
+                <span>for i, c in enumerate(texto):</span>
+                  <span>if c == 'a' or c == 'e':</span>
+                    <span>print(f"Vogal '{c}' encontrada, na posição {i}")</span>
+                <span>else:</span>
+                  <span>continue</span>
+            </code>
+            <p>Assim, ao darmos inicio ao código, ele irá ler todo o testo e nos mostrar se há uma vogal "A" ou "E" e em qual posição se encontra.</p>
     </main>   
 </body>
 </html>
